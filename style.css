@@ -1,9 +1,10 @@
 header div {
-    background-color: #f1f1f1;
+    background-color: aliceblue;
+    top: 0;
     margin: 4px;
     text-align: center;
     font-size: 24px;
-    position: sticky;
+    /*position: fixed;*/
     font-weight: bold; 
     width: 100%;
     height: 100px;
@@ -26,9 +27,39 @@ header div {
         border-radius: 5px;
         padding: 10px 20px;
         font-size: 16px;
-        background-color: #4CAF50;
-        color: white;
-        border: 2px solid #101010;
+        background-color: beige;
+        color: cadetblue;
+        border: 2px solid darkblue;
         cursor: pointer;
+    }
+}
+main {
+    height: 1000px;
+}
+footer {
+    background-color: firebrick;
+    margin: 4px;
+    padding: 4px, 2px, 2px, 4px;
+    border-radius: 4px;
+    bottom: 0;
+    width: 100%;
+    section {
+        text-align: center;
+        width: 30%;
+        display: inline-block;
+    }
+    h3 {
+        text-align: center;
+        color: gainsboro;
+        font-weight: bold;
+        padding-top: 30px;
+    }
+    p {
+        text-align: center;
+        padding-bottom: 9px;
+    }
+    li {
+        text-align: center;
+        list-style-type: none;
     }
 }
